@@ -87,7 +87,7 @@ header a:hover{
 /** Showcase **/
 
 #showcase {
-  background-image:url("../images/showbg.jpg");
+  background-image:url("showbg.jpg");
   background-position: center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -176,7 +176,7 @@ header a:hover{
 }
 
 #author-img {
-  background-image:url("../images/author.jpg");
+  background-image:url("author.jpg");
   background-repeat:no-repeat;
   width:40%;
   min-height:300px;
