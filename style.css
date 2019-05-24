@@ -233,3 +233,130 @@ footer{
   background:#062538;
   box-sizing: border-box;
 }
+
+
+/**Media Queries**/
+
+@media(max-width:1024px){
+  #newsletter{
+    padding:40px 10px;
+  }
+  
+  #newsletter h1{
+    font-size:24px;
+  }
+  
+  #author-sec{
+    width:80%;
+  }
+  
+  #author-img{
+    width:40%;
+  }
+  
+  .author-description h1{
+    font-size:35px;
+  }
+  
+  .author-description p{
+    font-size:15px;
+  }
+  } 
+  
+  @media(max-width:768px){
+    #branding h1 {
+      text-align:center;
+      float: none;
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:20px;
+      
+    
+    }
+  
+    header nav {
+      float:none;
+      width:100%;
+      text-align:center;
+      margin-bottom: 15px;
+    }
+    
+    #newsletter h1{
+      float:none;
+      width:100%;
+      text-align:center;
+      font-size:30px;
+      margin-bottom:20px;
+    }
+    
+    #newsletter form{
+      float:none;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+    }
+  
+    #newsletter input[type="email"]{
+      width:300px;
+      
+    }
+  
+    .box{
+      float:none;
+      width:100%;
+      
+    }
+    
+    
+    #author-img{
+      float:none;
+      width:100%;
+      background-size: cover;
+      background-position: top;
+    }
+    
+    .author-description{
+      float:none;
+      width:100%;
+      min-height:250px;
+    }
+    .author-description h1{
+      font-size:35px;
+      margin-top:40px;
+    }
+    
+    .author-description p{
+      font-size:15px;
+    }
+    
+  }
+  
+  @media(max-width:482px){
+    header li {
+      padding: 0 5px;
+      font-size:14px;
+    }
+  
+    #showcase h1 {
+      margin-top: 80px;
+      padding-top: 10px;
+      line-height:1.0em;
+      font-size:40px;
+    
+    }
+    
+    #showcase p{
+      font-size: 16px;
+      line-height: 1.5em;
+    
+    }
+  
+    #news-btn{
+      margin-top: 10px;
+    }
+  
+    #newsletter h1 {
+      font-size:16px;
+    }
+  }
